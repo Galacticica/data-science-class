@@ -1,0 +1,167 @@
+The purpose of this assignment is to explore, understand, and communicate meaningful insights about a real-world dataset. You will conduct an exploratory data analysis (EDA) of the Ames Housing dataset using Python and standard data science libraries.
+
+
+
+This assignment is not primarily about building predictive models. While you will build at least one regression model as part of your exploration, the goal is to use the model as a tool for understanding relationships in the data rather than achieving the highest possible prediction accuracy.
+
+
+
+Throughout your analysis, focus on asking and answering interesting questions about the dataset. Strive to uncover meaningful real-world patterns and explain why they may exist. For example, you might investigate how housing characteristics changed over time, whether certain features became more valuable in different years, or how home prices differ across neighborhoods.
+
+
+
+Think of yourself as a data analyst trying to understand a community rather than a machine learning engineer trying to maximize prediction performance.
+
+
+
+Dataset
+Use the Ames Housing dataset.
+
+
+
+AmesHousing.csv
+
+
+
+
+AmesDataDocumentation.txt
+
+
+The dataset contains information about residential properties sold in Ames, Iowa, including details such as:
+
+Sale price
+Lot size
+Living area
+Number of rooms
+Neighborhood
+Year built
+Year sold
+Quality ratings
+And many other housing-related attributes
+
+
+Before conducting any analysis, spend time becoming familiar with the meaning of the variables. The AmesDataDocumentation should be helpful.
+
+
+
+WARNING: Because this is a public dataset, you could find many analyses of this dataset online or analyze the data with AI. Referencing these analyses or using AI to generate an analysis of the dataset completely defeats the purpose of the assignment. Treat this assignment as if existing analysis of the dataset did not exist.
+
+
+
+Required Areas of Exploration
+Your analysis should include evidence of exploration at three different levels.
+
+1. Exploring Individual Features
+Investigate variables one at a time. Examples include:
+
+Descriptive statistics
+Distributions
+Histograms
+Boxplots
+Counts and frequencies
+Missing values
+Outlier identification
+Variability and spread
+Questions you might consider:
+
+What does a typical house in the dataset look like?
+Which variables appear highly skewed?
+Are there unusual or suspicious observations?
+Which neighborhoods appear most common?
+How have sale prices changed over time?
+Develop an understanding of individual variables before examining relationships between them.
+
+
+
+2. Exploring Relationships Between Pairs of Features
+Investigate patterns involving two variables at a time. Examples include:
+
+Correlation analysis
+Scatterplots and other visualizations
+Cross-tabulations
+Grouped summary statistics
+Relationships between categorical and numerical features
+Questions you might consider:
+
+Which features appear most related to sale price?
+Do larger houses consistently sell for more?
+Do relationships differ across neighborhoods?
+Has the relationship between house size and price changed over time?
+Are some features strongly related to one another?
+Focus on discovering and explaining meaningful patterns. Note: pretty graphs are not always meaningful.
+
+
+
+3. Exploring Relationships Among Multiple Features
+Investigate broader patterns involving several variables simultaneously. As part of this exploration, build at least one multiple linear regression model that predicts sale price from several housing characteristics. Possible uses of the model include:
+
+Identifying which variables appear most influential.
+Examining how relationships change when controlling for other factors.
+Comparing the importance of different housing attributes.
+Exploring interactions between variables.
+Understanding the factors associated with higher or lower sale prices.
+The model should be treated as a tool for data understanding rather than as a competition to achieve the lowest prediction error. A strong analysis will use the model to support substantive conclusions about the housing market represented in the dataset.
+
+
+
+Python Tools
+You are expected to use standard data science libraries, including:
+
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+You may use additional libraries if appropriate, but the majority of the work should be performed using the tools introduced in class.
+
+
+
+Communicating Your Findings
+Your final submission should communicate a coherent story about the dataset. Rather than presenting a collection of unrelated charts and statistics, organize your work around questions, observations, and conclusions. For every important finding:
+
+Describe what you observed.
+Provide evidence supporting the observation.
+Explain why the finding may be meaningful in a real-world context.
+The strongest submissions will demonstrate curiosity about the data and pursue interesting avenues of investigation beyond the most obvious relationships.
+
+
+
+AI Use Policy
+Permitted Uses
+Using AI as a programming assistant is encouraged. Examples of acceptable usage include:
+
+Generating small code snippets.
+Looking up Python syntax.
+Asking how to create a visualization.
+Asking how to perform a statistical calculation.
+Requesting explanations of library functions.
+For example: "I have a dataframe df and I want to compute the correlation between columns col1 and col2. Can you generate the Python code for this?" This is acceptable as long as you understand, verify, and take responsibility for any generated code that you use.
+
+
+
+Prohibited Uses
+You may not upload the dataset or portions of the dataset to an AI system.
+
+You may not ask AI systems to analyze the Ames Housing dataset on your behalf.
+
+You may not ask questions that attempt to obtain insights from the dataset without performing your own analysis.
+
+Examples of prohibited usage include:
+
+"What are some interesting patterns in the Ames Housing dataset?"
+"Analyze this dataset and tell me what conclusions I should report."
+"What variables are most important for predicting sale price in the Ames dataset?"
+The purpose of this assignment is for you to develop your own understanding of the data through exploration. Using AI to generate dataset-specific insights defeats that purpose.
+
+
+
+Deliverable
+Submit a well-organized Jupyter notebook (.ipynb) that combines code, visualizations, interpretation, and conclusions.
+
+Your analysis should demonstrate thoughtful exploration at all three levels:
+
+Individual features
+Pairs of features
+Multiple-feature relationships
+Most importantly, your work should show evidence of genuine curiosity and a meaningful effort to understand the real-world housing market reflected in the data.
