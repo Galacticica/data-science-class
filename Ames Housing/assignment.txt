@@ -140,22 +140,6 @@ For example: "I have a dataframe df and I want to compute the correlation betwee
 
 
 
-Prohibited Uses
-You may not upload the dataset or portions of the dataset to an AI system.
-
-You may not ask AI systems to analyze the Ames Housing dataset on your behalf.
-
-You may not ask questions that attempt to obtain insights from the dataset without performing your own analysis.
-
-Examples of prohibited usage include:
-
-"What are some interesting patterns in the Ames Housing dataset?"
-"Analyze this dataset and tell me what conclusions I should report."
-"What variables are most important for predicting sale price in the Ames dataset?"
-The purpose of this assignment is for you to develop your own understanding of the data through exploration. Using AI to generate dataset-specific insights defeats that purpose.
-
-
-
 Deliverable
 Submit a well-organized Jupyter notebook (.ipynb) that combines code, visualizations, interpretation, and conclusions.
 
