@@ -1,0 +1,117 @@
+The purpose of this assignment is to explore, understand, and communicate meaningful insights about a real-world dataset. You will conduct an exploratory data analysis (EDA) of the People dataset using Python and standard data science libraries.
+
+
+
+This assignment is not primarily about building predictive models. While you may build predictive models as part of your exploration, the goal is to understand relationships in the data.
+
+
+
+Throughout your analysis, focus on asking and answering interesting questions about the dataset. Strive to uncover meaningful real-world patterns and explain why they may exist.
+
+
+
+Think of yourself as a data analyst trying to understand patterns in census data rather than a machine learning engineer trying to maximize prediction performance.
+
+
+
+Dataset
+Use the People dataset.
+
+people_data.arff
+
+
+PeopleDataDocumentation.txt
+
+
+Before conducting any analysis, spend time becoming familiar with the meaning of the variables. The PeopleDataDocumentation should be helpful.
+
+
+
+WARNING: Because this is a public dataset, you could find many analyses of this dataset online or analyze the data with AI. Referencing these analyses or using AI to generate an analysis of the dataset completely defeats the purpose of the assignment. Treat this assignment as if existing analysis of the dataset did not exist.
+
+
+
+Required Areas of Exploration
+Your analysis should include evidence of exploration at three different levels.
+
+1. Exploring Individual Features
+Investigate variables one at a time. Examples include:
+
+Descriptive statistics
+Distributions
+Histograms
+Boxplots
+Counts and frequencies
+Missing values
+Outlier identification
+Variability and spread
+
+
+Develop an understanding of individual variables before examining relationships between them.
+
+
+
+2. Applying Apriori to Mine Association Rules
+
+Students are required to apply the Apriori algorithm, using the python code below. Students must translate the dataframe into a format required by the implementation. The unit tests are also attached for reference.
+
+
+
+apriori_from_scratch.py
+
+
+test_apriori_from_scratch.py
+
+
+The discovered association rules must explicitly guide further analysis of the dataset. Document how the association rules inform exploring relationships between pairs of features.
+
+
+
+3. Exploring Relationships Between Pairs of Features
+Investigate patterns involving two variables at a time. Examples include:
+
+Correlation analysis
+Scatterplots and other visualizations
+Cross-tabulations
+Grouped summary statistics
+Relationships between categorical and numerical features
+Focus on discovering and explaining meaningful patterns. Note: pretty graphs are not always meaningful.
+
+
+
+4. Optional Analysis: Feel free to do additional exploration or analysis, such as predicting the target class.
+
+
+
+Python Tools
+You are expected to use standard data science libraries, including:
+
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+You may use additional libraries if appropriate, but the majority of the work should be performed using the tools introduced in class.
+
+
+
+Communicating Your Findings
+Your final submission should communicate a coherent story about the dataset. Rather than presenting a collection of unrelated charts and statistics, organize your work around questions, observations, and conclusions. For every important finding:
+
+Describe what you observed.
+Provide evidence supporting the observation.
+Explain why the finding may be meaningful in a real-world context.
+The strongest submissions will demonstrate curiosity about the data and pursue interesting avenues of investigation beyond the most obvious relationships.
+
+
+
+Deliverable
+Submit a well-organized Jupyter notebook (.ipynb) that combines code, visualizations, interpretation, and conclusions.
+
+Your analysis should demonstrate thoughtful exploration at multiple levels:
+
+Individual features
+Pairs of features
+Association rules
+Most importantly, your work should show evidence of genuine curiosity and a meaningful effort to understand the real-world housing market reflected in the data.

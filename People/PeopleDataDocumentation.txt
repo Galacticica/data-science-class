@@ -1,0 +1,88 @@
+People Dataset
+=============
+
+Overview
+--------
+The People dataset, also known as the Census Income dataset, is a dataset for
+machine learning benchmarks on binary classification. The prediction task is to
+determine whether an individual's annual income exceeds $50,000 based on
+demographic and employment-related attributes.
+
+This dataset was extracted by Barry Becker from the 1994 U.S. Census database
+and was popularized through the work of Ron Kohavi. The version used in this
+project is the OpenML dataset with ID 1590, which combines the original UCI
+training and test partitions into a single dataset.
+
+
+Dataset Characteristics
+-----------------------
+Task Type: Binary Classification
+
+Target Variable:
+    class
+
+Target Classes:
+    <=50K
+    >50K
+
+Number of Instances:
+    48,842
+
+Number of Features:
+    14 predictor attributes
+
+The dataset contains both numerical and categorical features describing
+individuals, including age, education, occupation, marital status, hours
+worked per week, and other demographic information.
+
+Attributes
+----------
+Examples of attributes include:
+
+    age
+    workclass
+    fnlwgt
+    education
+    education-num
+    marital-status
+    occupation
+    relationship
+    race
+    sex
+    capital-gain
+    capital-loss
+    hours-per-week
+    native-country
+
+Target:
+    class
+
+The target indicates whether an individual's annual income exceeds $50,000.
+
+Special Note on fnlwgt
+----------------------
+The attribute "fnlwgt" represents a census weight that approximates the number
+of people in the broader population represented by an individual record. It is
+intended to account for demographic sampling characteristics and should not be
+interpreted as a personal attribute.
+
+Potential Uses
+--------------
+This dataset is commonly used for:
+
+    - Classification
+    - Decision Tree Learning
+    - Association Rule Mining
+    - Feature Importance Analysis
+    - Bias and Fairness Studies
+    - Educational Data Mining Exercises
+
+For association rule mining, categorical attributes may be discretized or
+converted into itemsets before applying algorithms such as Apriori.
+
+Citation
+--------
+Ron Kohavi.
+"Scaling Up the Accuracy of Naive-Bayes Classifiers: A Decision-Tree Hybrid."
+Proceedings of the Second International Conference on Knowledge Discovery
+and Data Mining (KDD), 1996.
