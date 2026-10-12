@@ -1,0 +1,50 @@
+Data on movies released in Hollywood between 2019 and 2023
+Format
+
+A data frame with 844 observations on the following 18 variables.
+Movie Title of the movie
+
+Distributor Primary U.S. distributor of the movie
+
+Genre Action Adventure, Black Comedy, Comedy, Concert/Performance, Documentary, Drama,
+Horror, Musical, Romantic Comedy, Thriller/Suspense, Western
+
+RottenTomatoes Rotten Tomatoes rating (critics)
+
+AudienceScore Audience rating (via Rotten Tomatoes)
+
+RunTime Running itme (in minutes)
+
+Rating G, PG, PG-13, or R
+
+DomesticBO Box office income for domestic (U.S.) viewers (in millions)
+
+ForeignBO Box office income for foreign viewers (in millions)
+
+WorldwideBO Box office income for all viewers (in millions)
+
+OpenBO Opening weekend box office income (in millions)
+
+TheatersOpen Number of screens for opening weekend
+
+BOAvgOpen Average box office income per theater, opening weekend
+
+Budget Production budget (in millions)
+
+Profitability WorldBO as a percentage of Budget
+
+OpenProfit Percentage of budget recovered on opening weekend
+
+Country Locations of production companies
+
+Year Year the movie was released
+
+Details
+Information from 844 movies released from Hollywood (or elswhere in the US) between 2019 and
+2023 that had at least $100,000 in box office income as of February 2025.
+** Updated for 4e (earlier versions are HollywoodMovies2018, HollywoodMovies2013, and HollywoodMovies2011). **
+
+Source
+Movie data obtained in February 2025 from
+https://www.the-numbers.com/
+https://www.rottentomatoes.com/
