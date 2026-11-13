@@ -1,0 +1,41 @@
+{
+  "alpha": 0.025,
+  "target_power": 0.8,
+  "seed": 20261101,
+  "results": [
+    {
+      "test": "Critic z-test",
+      "n_fresh": 998,
+      "n_rotten": 1100,
+      "baseline": 0.43,
+      "mde": 0.06708984375000002,
+      "power_at_mde": 0.79856,
+      "power_at_meaningful_effect": 0.99082
+    },
+    {
+      "test": "Audience z-test",
+      "n_fresh": 1253,
+      "n_rotten": 845,
+      "baseline": 0.40236686390532544,
+      "mde": 0.068310546875,
+      "power_at_mde": 0.80076,
+      "power_at_meaningful_effect": 0.98883
+    },
+    {
+      "test": "Critic Spearman",
+      "n": 2098,
+      "mde": 0.06767578125,
+      "power_at_mde": 0.801,
+      "power_at_meaningful_effect": 1.0,
+      "simulations": 3000
+    },
+    {
+      "test": "Audience Spearman",
+      "n": 2098,
+      "mde": 0.06767578125,
+      "power_at_mde": 0.801,
+      "power_at_meaningful_effect": 1.0,
+      "simulations": 3000
+    }
+  ]
+}
