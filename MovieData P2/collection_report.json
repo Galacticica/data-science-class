@@ -1,0 +1,119 @@
+{
+  "built_at_utc": "2026-11-18T03:21:00.304393+00:00",
+  "candidate_records": 13502,
+  "rows": 13467,
+  "errors": 0,
+  "merged_aliases": 10,
+  "fields": [
+    {
+      "Field": "Movie",
+      "Present": 13467,
+      "Missing": 0,
+      "Total": 13467
+    },
+    {
+      "Field": "Year",
+      "Present": 13467,
+      "Missing": 0,
+      "Total": 13467
+    },
+    {
+      "Field": "LeadStudio",
+      "Present": 13438,
+      "Missing": 29,
+      "Total": 13467
+    },
+    {
+      "Field": "Genre",
+      "Present": 13134,
+      "Missing": 333,
+      "Total": 13467
+    },
+    {
+      "Field": "RunTime",
+      "Present": 13170,
+      "Missing": 297,
+      "Total": 13467
+    },
+    {
+      "Field": "RottenTomatoes",
+      "Present": 3519,
+      "Missing": 9948,
+      "Total": 13467
+    },
+    {
+      "Field": "TheatersOpenWeek",
+      "Present": 12085,
+      "Missing": 1382,
+      "Total": 13467
+    },
+    {
+      "Field": "OpeningWeekend",
+      "Present": 12406,
+      "Missing": 1061,
+      "Total": 13467
+    },
+    {
+      "Field": "BOAvgOpenWeekend",
+      "Present": 12084,
+      "Missing": 1383,
+      "Total": 13467
+    },
+    {
+      "Field": "DomesticBO",
+      "Present": 13467,
+      "Missing": 0,
+      "Total": 13467
+    },
+    {
+      "Field": "ForeignBO",
+      "Present": 8008,
+      "Missing": 5459,
+      "Total": 13467
+    },
+    {
+      "Field": "WorldwideBO",
+      "Present": 12165,
+      "Missing": 1302,
+      "Total": 13467
+    },
+    {
+      "Field": "Budget",
+      "Present": 9115,
+      "Missing": 4352,
+      "Total": 13467
+    },
+    {
+      "Field": "Profitability",
+      "Present": 9007,
+      "Missing": 4460,
+      "Total": 13467
+    },
+    {
+      "Field": "Director",
+      "Present": 12273,
+      "Missing": 1194,
+      "Total": 13467
+    },
+    {
+      "Field": "Composer",
+      "Present": 10488,
+      "Missing": 2979,
+      "Total": 13467
+    },
+    {
+      "Field": "ListofCastMembers",
+      "Present": 12266,
+      "Missing": 1201,
+      "Total": 13467
+    }
+  ],
+  "omdb_last_run": {
+    "utc": "2026-11-18T03:21:44.742034+00:00",
+    "scores_added": 887,
+    "quota_or_key_issue": true,
+    "request_errors": [
+      "RuntimeError: HTTP 401 from www.omdbapi.com"
+    ]
+  }
+}

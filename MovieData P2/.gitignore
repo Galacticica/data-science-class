@@ -1,0 +1,4 @@
+.env
+movie_cache.sqlite*
+sources/
+__pycache__/
